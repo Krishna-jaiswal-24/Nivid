@@ -89,7 +89,7 @@ const Navbar = () => {
               />
             </svg>
           </HashLink>
-          <ul className="absolute left-0 mt-2 w-48 bg-white text-black shadow-lg rounded-lg opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
+          <ul className="absolute left-0 pt-2 w-48 bg-white text-black shadow-lg rounded-lg opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-300 invisible">
             {serviceData.map((service) => (
               <li
                 key={service.id}
@@ -132,7 +132,7 @@ const Navbar = () => {
               />
             </svg>
           </HashLink>
-          <ul className="absolute left-0 mt-2 w-48 bg-white text-black shadow-lg rounded-lg opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
+          <ul className="absolute left-0 pt-2 w-48 bg-white text-black shadow-lg rounded-lg opacity-0  group-hover:opacity-100 group-hover:visible  transition-opacity duration-300 invisible">
             {caseStudyData.map((casestudy) => (
               <li
                 key={casestudy.id}
